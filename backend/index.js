@@ -16,11 +16,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOption = {
-<<<<<<< HEAD
     origin : true,            //"http://localhost:5173"
-=======
-    origin : true,
->>>>>>> e304d6276cb9a497f90289613bf91e8293f0815f
     credentials : true
 }
 app.use(cors(corsOption));
